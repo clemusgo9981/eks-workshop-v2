@@ -35,7 +35,7 @@ managedNodeGroups:
   desiredCapacity: 3
   minSize: 3
   maxSize: 6
-  instanceType: m5.large
+  instanceType: t2.small
   privateNetworking: true
   releaseVersion: 1.27.3-20230816
   updateConfig:
